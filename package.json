@@ -1,0 +1,10 @@
+{
+  "name": "brave-mcp-server",
+  "version": "1.0.0",
+  "dependencies": {
+    "@brave/brave-search-mcp-server": "latest"
+  },
+  "scripts": {
+    "start": "brave-search-mcp-server --transport http --port ${PORT:-8080}"
+  }
+}
